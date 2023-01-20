@@ -6,7 +6,7 @@ namespace BenchMark.NET;
 
 [Orderer(SummaryOrderPolicy.FastestToSlowest)]
 [MemoryDiagnoser()]
-public class Strings
+public class StringConcatenation
 {
     [Benchmark]
     public void BuildStringsWithConcatenation()
